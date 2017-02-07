@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "MyCoreLib.IoCTest/1.0.0": {
+        "dependencies": {
+          "MyCoreLib.IOC": "1.0.0"
+        },
+        "runtime": {
+          "MyCoreLib.IoCTest.dll": {}
+        }
+      },
+      "MyCoreLib.IOC/1.0.0": {
+        "runtime": {
+          "MyCoreLib.IOC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyCoreLib.IoCTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyCoreLib.IOC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

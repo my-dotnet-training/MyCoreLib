@@ -1,0 +1,20 @@
+{
+  "title": "MyCoreLib.Data",
+  "copyright": "Bitter Zhang",
+  "description": "MyCoreLib.Data",
+  "version": "1.1.1-*",
+
+  "dependencies": {
+    "MyCoreLib.Common": "1.0.0-*",
+    "MyCoreLib.IOC": "1.0.0-*",
+    "MySql.Data": "7.0.6-IR31",
+    "NETStandard.Library": "1.6.0",
+    "System.Data.SqlClient": "4.1.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
