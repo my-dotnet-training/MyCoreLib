@@ -8,8 +8,8 @@
 --suppress-warning:CS1705
 --optimize:False
 --output-name:MyCoreLib.Data
---title:MyCoreLib.Data
---description:MyCoreLib.Data
+--title:MyCoreLib.BaseData
+--description:MyCoreLib.BaseData
 --copyright:Bitter Zhang
 --file-version:1.1.1.0
 --version:1.1.1.0
@@ -66,6 +66,8 @@
 --reference:C:\Users\zhangjl\.nuget\packages\System.Net.Sockets\4.1.0\ref\netstandard1.3\System.Net.Sockets.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.ObjectModel\4.0.12\ref\netstandard1.3\System.ObjectModel.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection\4.1.0\ref\netstandard1.5\System.Reflection.dll
+--reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.1\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
+--reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.1\ref\netstandard1.0\System.Reflection.Emit.Lightweight.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Extensions\4.0.1\ref\netstandard1.0\System.Reflection.Extensions.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Primitives\4.0.1\ref\netstandard1.0\System.Reflection.Primitives.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.TypeExtensions\4.1.0\ref\netstandard1.5\System.Reflection.TypeExtensions.dll
@@ -96,6 +98,7 @@
 --reference:C:\Users\zhangjl\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:E:\training\core\MyCoreLib\src\MyCoreLib.Output\bin\src\MyCoreLib.Common\bin\Debug\netstandard1.6\MyCoreLib.Common.dll
+--reference:E:\training\core\MyCoreLib\src\MyCoreLib.Output\bin\src\MyCoreLib.IOC\bin\Debug\netstandard1.6\MyCoreLib.IOC.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.Data\DBContext.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.Data\DBConvertExtension.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.Data\DBExtensions.cs

@@ -58,6 +58,6 @@
 -r:"C:\Users\zhangjl\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
 -r:"E:\training\core\MyCoreLib\src\MyCoreLib.Output\bin\src\MyCoreLib.Common\bin\Debug\netstandard1.6\MyCoreLib.Common.dll"
 "E:\training\core\MyCoreLib\src\MyCoreLib.Cache\BaseCache.cs"
-"E:\training\core\MyCoreLib\src\MyCoreLib.Cache\BaseMemberCache.cs"
-"E:\training\core\MyCoreLib\src\MyCoreLib.Cache\BaseTimerCache.cs"
+"E:\training\core\MyCoreLib\src\MyCoreLib.Cache\LocalCached\BaseLocalCache.cs"
+"E:\training\core\MyCoreLib\src\MyCoreLib.Cache\LocalCached\BaseTimerCache.cs"
 "E:\training\core\MyCoreLib\src\MyCoreLib.Cache\Properties\AssemblyInfo.cs"

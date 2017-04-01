@@ -9,7 +9,7 @@
       "type": "platform",
       "version": "1.0.1"
     },
-    "MyCoreLib.IOC": "1.0.0-*"
+    "MyCoreLib.BaseIoC": "1.0.0-*",
   },
 
   "frameworks": {

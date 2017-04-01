@@ -10,6 +10,7 @@
       "MyCoreLib.Data/1.1.1": {
         "dependencies": {
           "MyCoreLib.Common": "1.0.0",
+          "MyCoreLib.IOC": "1.0.0",
           "MySql.Data": "7.0.6-IR31",
           "NETStandard.Library": "1.6.0",
           "System.Data.SqlClient": "4.1.0"
@@ -1387,6 +1388,16 @@
         "runtime": {
           "MyCoreLib.Common.dll": {}
         }
+      },
+      "MyCoreLib.IOC/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Reflection.Emit.Lightweight": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0"
+        },
+        "runtime": {
+          "MyCoreLib.IOC.dll": {}
+        }
       }
     }
   },
@@ -1917,6 +1928,11 @@
       "sha512": "sha512-tr8tFJTekg/uWtMgiWrFcI6S1tUvDK57E+hhqJrsrA7peRmKB6jsQScwb0On9D/u9jpY//rUfBkI5SDIDmwvMg=="
     },
     "MyCoreLib.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyCoreLib.IOC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

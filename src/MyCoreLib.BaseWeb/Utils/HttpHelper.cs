@@ -9,6 +9,7 @@ using System.Text;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Http.Internal;
 using Microsoft.Extensions.FileProviders;
+using System.Net.Security;
 
 namespace MyCoreLib.BaseWeb.Utils
 {

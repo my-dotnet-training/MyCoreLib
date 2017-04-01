@@ -9,7 +9,7 @@
       "type": "platform",
       "version": "1.0.1"
     },
-    "MyCoreLib.Data": "1.1.1-*"
+    "MyCoreLib.BaseData": "1.1.1-*"
   },
 
   "frameworks": {

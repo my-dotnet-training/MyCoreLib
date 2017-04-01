@@ -1,7 +1,7 @@
-﻿using MyCoreLib.IoC;
+﻿using MyCoreLib.BaseIoC;
 using System;
 
-namespace MyCoreLib.IoCTest
+namespace MyCoreLib.BaseIoCTest
 {
     public interface ITest
     {
@@ -29,13 +29,13 @@ namespace MyCoreLib.IoCTest
         static void Main(string[] args)
         {
             IIoCConfig config = IoCConfig.ReadConfig("");
-            config.AddConfig<Test>("MyCoreLib.IoCTest.Test");//添加配置
-            config.AddConfig<Test2>("MyCoreLib.IoCTest.Test2");//添加配置
+            config.AddConfig<Test>("MyCoreLib.BaseIoCTest.Test");//添加配置
+            config.AddConfig<Test2>("MyCoreLib.BaseIoCTest.Test2");//添加配置
             //获取容器
             IIoCContainer container = IoCContainerManager.GetIoCContainer(config);
             //根据ITest接口去获取对应的实例
-            ITest test = container.Get<ITest>("MyCoreLib.IoCTest.Test");
-            ITest test2 = container.Get<ITest>("MyCoreLib.IoCTest.Test2");
+            ITest test = container.Get<ITest>("MyCoreLib.BaseIoCTest.Test");
+            ITest test2 = container.Get<ITest>("MyCoreLib.BaseIoCTest.Test2");
 
             test.DoWork();
             test2.DoWork();

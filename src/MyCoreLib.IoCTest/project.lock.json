@@ -2028,7 +2028,7 @@
           "lib/netstandard1.3/_._": {}
         }
       },
-      "MyCoreLib.IOC/1.0.0": {
+      "MyCoreLib.BaseIoC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
@@ -2037,10 +2037,10 @@
           "System.Reflection.TypeExtensions": "4.1.0"
         },
         "compile": {
-          "netstandard1.6/MyCoreLib.IOC.dll": {}
+          "netstandard1.6/MyCoreLib.BaseIoC.dll": {}
         },
         "runtime": {
-          "netstandard1.6/MyCoreLib.IOC.dll": {}
+          "netstandard1.6/MyCoreLib.BaseIoC.dll": {}
         }
       }
     }
@@ -6637,16 +6637,16 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "MyCoreLib.IOC/1.0.0": {
+    "MyCoreLib.BaseIoC/1.0.0": {
       "type": "project",
-      "path": "../MyCoreLib.IOC/project.json",
-      "msbuildProject": "../MyCoreLib.IOC/MyCoreLib.IOC.xproj"
+      "path": "../MyCoreLib.BaseIoC/project.json",
+      "msbuildProject": "../MyCoreLib.BaseIoC/MyCoreLib.BaseIoC.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.App >= 1.0.1",
-      "MyCoreLib.IOC >= 1.0.0-*"
+      "MyCoreLib.BaseIoC >= 1.0.0-*"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

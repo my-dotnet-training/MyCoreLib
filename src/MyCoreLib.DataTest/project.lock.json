@@ -2559,6 +2559,38 @@
           "lib/netstandard1.3/_._": {}
         }
       },
+      "MyCoreLib.BaseData/1.1.1": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "MyCoreLib.BaseIoC": "1.0.0",
+          "MyCoreLib.Common": "1.0.0",
+          "MySql.Data": "7.0.6-IR31",
+          "NETStandard.Library": "1.6.0",
+          "System.Data.SqlClient": "4.1.0"
+        },
+        "compile": {
+          "netstandard1.6/MyCoreLib.BaseData.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/MyCoreLib.BaseData.dll": {}
+        }
+      },
+      "MyCoreLib.BaseIoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Reflection.Emit.Lightweight": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0"
+        },
+        "compile": {
+          "netstandard1.6/MyCoreLib.BaseIoC.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/MyCoreLib.BaseIoC.dll": {}
+        }
+      },
       "MyCoreLib.Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
@@ -2572,38 +2604,6 @@
         },
         "runtime": {
           "netstandard1.6/MyCoreLib.Common.dll": {}
-        }
-      },
-      "MyCoreLib.Data/1.1.1": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.6",
-        "dependencies": {
-          "MyCoreLib.Common": "1.0.0",
-          "MyCoreLib.IOC": "1.0.0",
-          "MySql.Data": "7.0.6-IR31",
-          "NETStandard.Library": "1.6.0",
-          "System.Data.SqlClient": "4.1.0"
-        },
-        "compile": {
-          "netstandard1.6/MyCoreLib.Data.dll": {}
-        },
-        "runtime": {
-          "netstandard1.6/MyCoreLib.Data.dll": {}
-        }
-      },
-      "MyCoreLib.IOC/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v1.6",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.Reflection.Emit.Lightweight": "4.0.1",
-          "System.Reflection.TypeExtensions": "4.1.0"
-        },
-        "compile": {
-          "netstandard1.6/MyCoreLib.IOC.dll": {}
-        },
-        "runtime": {
-          "netstandard1.6/MyCoreLib.IOC.dll": {}
         }
       }
     }
@@ -7822,26 +7822,26 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "MyCoreLib.BaseData/1.1.1": {
+      "type": "project",
+      "path": "../MyCoreLib.BaseData/project.json",
+      "msbuildProject": "../MyCoreLib.BaseData/MyCoreLib.BaseData.xproj"
+    },
+    "MyCoreLib.BaseIoC/1.0.0": {
+      "type": "project",
+      "path": "../MyCoreLib.BaseIoC/project.json",
+      "msbuildProject": "../MyCoreLib.BaseIoC/MyCoreLib.BaseIoC.xproj"
+    },
     "MyCoreLib.Common/1.0.0": {
       "type": "project",
       "path": "../MyCoreLib.Common/project.json",
       "msbuildProject": "../MyCoreLib.Common/MyCoreLib.Common.xproj"
-    },
-    "MyCoreLib.Data/1.1.1": {
-      "type": "project",
-      "path": "../MyCoreLib.Data/project.json",
-      "msbuildProject": "../MyCoreLib.Data/MyCoreLib.Data.xproj"
-    },
-    "MyCoreLib.IOC/1.0.0": {
-      "type": "project",
-      "path": "../MyCoreLib.IOC/project.json",
-      "msbuildProject": "../MyCoreLib.IOC/MyCoreLib.IOC.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.App >= 1.0.1",
-      "MyCoreLib.Data >= 1.1.1-*"
+      "MyCoreLib.BaseData >= 1.1.1-*"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

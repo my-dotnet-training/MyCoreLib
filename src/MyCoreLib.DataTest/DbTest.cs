@@ -1,11 +1,11 @@
 ﻿using MyCoreLib.Common;
-using MyCoreLib.Data;
+using MyCoreLib.BaseData;
 using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using System.Data.Common;
 
-namespace MyCoreLib.DataTest
+namespace MyCoreLib.BaseDataTest
 {
     public class DbTest
     {

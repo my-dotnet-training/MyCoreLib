@@ -75,6 +75,8 @@
 --reference:C:\Users\zhangjl\.nuget\packages\System.ObjectModel\4.0.12\ref\netstandard1.3\System.ObjectModel.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection\4.1.0\ref\netstandard1.5\System.Reflection.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.DispatchProxy\4.0.1\ref\netstandard1.3\System.Reflection.DispatchProxy.dll
+--reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Emit.ILGeneration\4.0.1\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
+--reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Emit.Lightweight\4.0.1\ref\netstandard1.0\System.Reflection.Emit.Lightweight.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Extensions\4.0.1\ref\netstandard1.0\System.Reflection.Extensions.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Metadata\1.3.0\lib\netstandard1.1\System.Reflection.Metadata.dll
 --reference:C:\Users\zhangjl\.nuget\packages\System.Reflection.Primitives\4.0.1\ref\netstandard1.0\System.Reflection.Primitives.dll
@@ -111,5 +113,6 @@
 --reference:C:\Users\zhangjl\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:E:\training\core\MyCoreLib\src\MyCoreLib.Common\bin\Debug\netstandard1.6\MyCoreLib.Common.dll
 --reference:E:\training\core\MyCoreLib\src\MyCoreLib.Data\bin\Debug\netstandard1.6\MyCoreLib.Data.dll
+--reference:E:\training\core\MyCoreLib\src\MyCoreLib.IOC\bin\Debug\netstandard1.6\MyCoreLib.IOC.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.DataTest\DbTest.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.DataTest\Properties\AssemblyInfo.cs
