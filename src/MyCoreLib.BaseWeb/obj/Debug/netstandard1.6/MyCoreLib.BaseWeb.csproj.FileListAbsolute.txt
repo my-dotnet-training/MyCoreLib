@@ -1,0 +1,3 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseWeb\bin\Debug\netstandard1.6\MyCoreLib.BaseWeb.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseWeb\obj\Debug\netstandard1.6\MyCoreLib.BaseWeb.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseWeb\obj\Debug\netstandard1.6\MyCoreLib.BaseWeb.AssemblyInfo.cs

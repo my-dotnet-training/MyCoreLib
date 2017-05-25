@@ -1,0 +1,2 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseUnitTest\bin\Debug\netstandard1.6\MyCoreLib.BaseUnitTest.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseUnitTest\obj\Debug\netstandard1.6\MyCoreLib.BaseUnitTest.AssemblyInfo.cs

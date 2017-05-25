@@ -1,0 +1,7 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\bin\Debug\netstandard1.6\MyCoreLib.BaseMVC.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\bin\Debug\netstandard1.6\MyCoreLib.BaseMVC.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\bin\Debug\netstandard1.6\MyCoreLib.BaseMVC.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\obj\Debug\netstandard1.6\MyCoreLib.BaseMVC.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\obj\Debug\netstandard1.6\MyCoreLib.BaseMVC.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\obj\Debug\netstandard1.6\MyCoreLib.BaseMVC.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMVC\obj\Debug\netstandard1.6\MyCoreLib.BaseMVC.pdb

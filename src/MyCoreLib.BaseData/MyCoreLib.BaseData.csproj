@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>MyCoreLib.BaseData</Description>
+    <Copyright>Bitter Zhang</Copyright>
+    <AssemblyTitle>MyCoreLib.BaseData</AssemblyTitle>
+    <VersionPrefix>1.1.1</VersionPrefix>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>MyCoreLib.BaseData</AssemblyName>
+    <PackageId>MyCoreLib.BaseData</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreLib.BaseIoC\MyCoreLib.BaseIoC.csproj" />
+    <ProjectReference Include="..\MyCoreLib.Common\MyCoreLib.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="7.0.6-IR31" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>

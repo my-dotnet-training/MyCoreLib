@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\bin\Debug\netstandard1.6\MyCoreLib.WeixinSDK.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\bin\Debug\netstandard1.6\MyCoreLib.WeixinSDK.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\bin\Debug\netstandard1.6\MyCoreLib.WeixinSDK.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.pdb

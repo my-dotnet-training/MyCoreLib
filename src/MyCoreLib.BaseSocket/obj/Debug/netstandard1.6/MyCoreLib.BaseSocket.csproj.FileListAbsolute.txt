@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseSocket.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseSocket.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseSocket.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.pdb

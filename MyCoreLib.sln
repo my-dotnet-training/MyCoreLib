@@ -1,60 +1,59 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE71C81D-9B1B-4079-9742-8967122D5148}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{893BB993-FB46-4BCE-A233-AC5B4F078B8F}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.Common", "src\MyCoreLib.Common\MyCoreLib.Common.xproj", "{2136B05D-C312-4E22-8594-0D67DAE3B707}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseWeb", "src\MyCoreLib.BaseWeb\MyCoreLib.BaseWeb.xproj", "{52B5F16C-C2D2-4069-B38C-04CB19D6F43D}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseData", "src\MyCoreLib.BaseData\MyCoreLib.BaseData.xproj", "{4D2CF047-D4E2-466B-A4EB-5172A5EDBC04}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.AliSDK", "src\MyCoreLib.AliSDK\MyCoreLib.AliSDK.xproj", "{1329DB4F-F5FE-429A-A5C8-4B3EE7C9F6FC}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseCache", "src\MyCoreLib.BaseCache\MyCoreLib.BaseCache.xproj", "{DD9ED38D-2B5C-4AC5-9971-4AC7B2ED9878}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseIoC", "src\MyCoreLib.BaseIoC\MyCoreLib.BaseIoC.xproj", "{FDB827C5-1820-4661-A9D1-5CB88BFF0EF1}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseLog", "src\MyCoreLib.BaseLog\MyCoreLib.BaseLog.xproj", "{02171526-3A5F-4614-A15D-97F511A1B6E3}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseMail", "src\MyCoreLib.BaseMail\MyCoreLib.BaseMail.xproj", "{A101E612-3A60-40B4-990D-CDCDB07545DF}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseMessage", "src\MyCoreLib.BaseMessage\MyCoreLib.BaseMessage.xproj", "{5FB6623F-3473-4E2F-AD83-F9AF04A35DA0}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseModel", "src\MyCoreLib.BaseModel\MyCoreLib.BaseModel.xproj", "{55353241-69B0-4448-9CAC-3C1C01C67183}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseMVC", "src\MyCoreLib.BaseMVC\MyCoreLib.BaseMVC.xproj", "{4239D4B1-19CA-45F3-9008-110EB6F937E9}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BasePay", "src\MyCoreLib.BasePay\MyCoreLib.BasePay.xproj", "{51AB6690-B8B2-46C5-8CE4-53622EBE7833}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BasePush", "src\MyCoreLib.BasePush\MyCoreLib.BasePush.xproj", "{1031E765-7532-490D-AB6A-0379EBB83D6A}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseSMS", "src\MyCoreLib.BaseSMS\MyCoreLib.BaseSMS.xproj", "{CFBF8065-6EA0-4562-B372-2C6B469ABEFC}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseUnitTest", "src\MyCoreLib.BaseUnitTest\MyCoreLib.BaseUnitTest.xproj", "{E29C8969-BBE7-4DA6-8E3D-1EC861A8F989}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.DataTest", "src\MyCoreLib.DataTest\MyCoreLib.DataTest.xproj", "{B296C3C4-C713-4498-8AB1-730B2B9733AE}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.IoCTest", "src\MyCoreLib.IoCTest\MyCoreLib.IoCTest.xproj", "{A106DBA2-B7EA-468D-9D49-58B8FC8358AF}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.WeixinSDK", "src\MyCoreLib.WeixinSDK\MyCoreLib.WeixinSDK.xproj", "{D26ECE61-034B-4482-9788-FC2536FFB7A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Third", "Third", "{9F410AEB-1A5F-4BB5-9983-C3796939CBD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{97A33476-AEFA-4CAB-A103-77975D96E221}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseAsync", "src\MyCoreLib.BaseAsync\MyCoreLib.BaseAsync.xproj", "{AA2E4D62-2273-4DC3-A088-A8D43E791321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.Common", "src\MyCoreLib.Common\MyCoreLib.Common.csproj", "{2136B05D-C312-4E22-8594-0D67DAE3B707}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseSocket", "src\MyCoreLib.BaseSocket\MyCoreLib.BaseSocket.xproj", "{640600ED-C275-4099-A8B1-9FF59AD9E227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseWeb", "src\MyCoreLib.BaseWeb\MyCoreLib.BaseWeb.csproj", "{52B5F16C-C2D2-4069-B38C-04CB19D6F43D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyCoreLib.BaseNet", "src\MyCoreLib.BaseNet\MyCoreLib.BaseNet.xproj", "{0BED08D5-C158-4404-9718-E72487906455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseData", "src\MyCoreLib.BaseData\MyCoreLib.BaseData.csproj", "{4D2CF047-D4E2-466B-A4EB-5172A5EDBC04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.AliSDK", "src\MyCoreLib.AliSDK\MyCoreLib.AliSDK.csproj", "{1329DB4F-F5FE-429A-A5C8-4B3EE7C9F6FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseCache", "src\MyCoreLib.BaseCache\MyCoreLib.BaseCache.csproj", "{DD9ED38D-2B5C-4AC5-9971-4AC7B2ED9878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseIoC", "src\MyCoreLib.BaseIoC\MyCoreLib.BaseIoC.csproj", "{FDB827C5-1820-4661-A9D1-5CB88BFF0EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseLog", "src\MyCoreLib.BaseLog\MyCoreLib.BaseLog.csproj", "{02171526-3A5F-4614-A15D-97F511A1B6E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseMail", "src\MyCoreLib.BaseMail\MyCoreLib.BaseMail.csproj", "{A101E612-3A60-40B4-990D-CDCDB07545DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseMessage", "src\MyCoreLib.BaseMessage\MyCoreLib.BaseMessage.csproj", "{5FB6623F-3473-4E2F-AD83-F9AF04A35DA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseModel", "src\MyCoreLib.BaseModel\MyCoreLib.BaseModel.csproj", "{55353241-69B0-4448-9CAC-3C1C01C67183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseMVC", "src\MyCoreLib.BaseMVC\MyCoreLib.BaseMVC.csproj", "{4239D4B1-19CA-45F3-9008-110EB6F937E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BasePay", "src\MyCoreLib.BasePay\MyCoreLib.BasePay.csproj", "{51AB6690-B8B2-46C5-8CE4-53622EBE7833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BasePush", "src\MyCoreLib.BasePush\MyCoreLib.BasePush.csproj", "{1031E765-7532-490D-AB6A-0379EBB83D6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseSMS", "src\MyCoreLib.BaseSMS\MyCoreLib.BaseSMS.csproj", "{CFBF8065-6EA0-4562-B372-2C6B469ABEFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseUnitTest", "src\MyCoreLib.BaseUnitTest\MyCoreLib.BaseUnitTest.csproj", "{E29C8969-BBE7-4DA6-8E3D-1EC861A8F989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.DataTest", "src\MyCoreLib.DataTest\MyCoreLib.DataTest.csproj", "{B296C3C4-C713-4498-8AB1-730B2B9733AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.IoCTest", "src\MyCoreLib.IoCTest\MyCoreLib.IoCTest.csproj", "{A106DBA2-B7EA-468D-9D49-58B8FC8358AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.WeixinSDK", "src\MyCoreLib.WeixinSDK\MyCoreLib.WeixinSDK.csproj", "{D26ECE61-034B-4482-9788-FC2536FFB7A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseAsync", "src\MyCoreLib.BaseAsync\MyCoreLib.BaseAsync.csproj", "{AA2E4D62-2273-4DC3-A088-A8D43E791321}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseSocket", "src\MyCoreLib.BaseSocket\MyCoreLib.BaseSocket.csproj", "{640600ED-C275-4099-A8B1-9FF59AD9E227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseNet", "src\MyCoreLib.BaseNet\MyCoreLib.BaseNet.csproj", "{0BED08D5-C158-4404-9718-E72487906455}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseAOP", "src\MyCoreLib.BaseAOP\MyCoreLib.BaseAOP.csproj", "{E9324A8A-514B-4753-856D-7DB001D4E095}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,11 +145,17 @@ Global
 		{0BED08D5-C158-4404-9718-E72487906455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BED08D5-C158-4404-9718-E72487906455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BED08D5-C158-4404-9718-E72487906455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9324A8A-514B-4753-856D-7DB001D4E095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9324A8A-514B-4753-856D-7DB001D4E095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9324A8A-514B-4753-856D-7DB001D4E095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9324A8A-514B-4753-856D-7DB001D4E095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{9F410AEB-1A5F-4BB5-9983-C3796939CBD3} = {CE71C81D-9B1B-4079-9742-8967122D5148}
+		{97A33476-AEFA-4CAB-A103-77975D96E221} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{2136B05D-C312-4E22-8594-0D67DAE3B707} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{52B5F16C-C2D2-4069-B38C-04CB19D6F43D} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{4D2CF047-D4E2-466B-A4EB-5172A5EDBC04} = {CE71C81D-9B1B-4079-9742-8967122D5148}
@@ -169,10 +174,9 @@ Global
 		{B296C3C4-C713-4498-8AB1-730B2B9733AE} = {97A33476-AEFA-4CAB-A103-77975D96E221}
 		{A106DBA2-B7EA-468D-9D49-58B8FC8358AF} = {97A33476-AEFA-4CAB-A103-77975D96E221}
 		{D26ECE61-034B-4482-9788-FC2536FFB7A6} = {9F410AEB-1A5F-4BB5-9983-C3796939CBD3}
-		{9F410AEB-1A5F-4BB5-9983-C3796939CBD3} = {CE71C81D-9B1B-4079-9742-8967122D5148}
-		{97A33476-AEFA-4CAB-A103-77975D96E221} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{AA2E4D62-2273-4DC3-A088-A8D43E791321} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{640600ED-C275-4099-A8B1-9FF59AD9E227} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 		{0BED08D5-C158-4404-9718-E72487906455} = {CE71C81D-9B1B-4079-9742-8967122D5148}
+		{E9324A8A-514B-4753-856D-7DB001D4E095} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 	EndGlobalSection
 EndGlobal

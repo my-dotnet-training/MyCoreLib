@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\bin\Debug\netstandard1.6\MyCoreLib.BaseNet.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\bin\Debug\netstandard1.6\MyCoreLib.BaseNet.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\bin\Debug\netstandard1.6\MyCoreLib.BaseNet.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\obj\Debug\netstandard1.6\MyCoreLib.BaseNet.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\obj\Debug\netstandard1.6\MyCoreLib.BaseNet.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseNet\obj\Debug\netstandard1.6\MyCoreLib.BaseNet.pdb

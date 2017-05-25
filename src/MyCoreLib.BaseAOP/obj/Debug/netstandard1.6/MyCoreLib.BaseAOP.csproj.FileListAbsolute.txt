@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\bin\Debug\netstandard1.6\MyCoreLib.BaseAOP.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\bin\Debug\netstandard1.6\MyCoreLib.BaseAOP.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\bin\Debug\netstandard1.6\MyCoreLib.BaseAOP.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\obj\Debug\netstandard1.6\MyCoreLib.BaseAOP.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\obj\Debug\netstandard1.6\MyCoreLib.BaseAOP.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAOP\obj\Debug\netstandard1.6\MyCoreLib.BaseAOP.pdb

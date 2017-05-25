@@ -2,6 +2,7 @@
 
 namespace MyCoreLib.BaseUnitTest.Attributes
 {
+    [TestCalss]
     public class UnitTestDBNameAttribute: Attribute
     {
         private string _dbName;

@@ -1,0 +1,7 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\bin\Debug\netstandard1.6\MyCoreLib.BaseMessage.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\bin\Debug\netstandard1.6\MyCoreLib.BaseMessage.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\bin\Debug\netstandard1.6\MyCoreLib.BaseMessage.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\obj\Debug\netstandard1.6\MyCoreLib.BaseMessage.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\obj\Debug\netstandard1.6\MyCoreLib.BaseMessage.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\obj\Debug\netstandard1.6\MyCoreLib.BaseMessage.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseMessage\obj\Debug\netstandard1.6\MyCoreLib.BaseMessage.pdb

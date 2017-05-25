@@ -1,0 +1,7 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseLog.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseLog.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseLog.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.pdb
