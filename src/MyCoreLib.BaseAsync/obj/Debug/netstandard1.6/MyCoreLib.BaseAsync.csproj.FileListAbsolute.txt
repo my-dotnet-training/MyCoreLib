@@ -1,3 +1,7 @@
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\bin\Debug\netstandard1.6\MyCoreLib.BaseAsync.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\bin\Debug\netstandard1.6\MyCoreLib.BaseAsync.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\bin\Debug\netstandard1.6\MyCoreLib.BaseAsync.pdb
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\obj\Debug\netstandard1.6\MyCoreLib.BaseAsync.csprojResolveAssemblyReference.cache
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\obj\Debug\netstandard1.6\MyCoreLib.BaseAsync.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\obj\Debug\netstandard1.6\MyCoreLib.BaseAsync.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseAsync\obj\Debug\netstandard1.6\MyCoreLib.BaseAsync.pdb

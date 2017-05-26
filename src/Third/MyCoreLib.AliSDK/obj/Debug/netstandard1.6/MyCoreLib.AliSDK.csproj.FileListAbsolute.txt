@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\bin\Debug\netstandard1.6\MyCoreLib.AliSDK.deps.json
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\bin\Debug\netstandard1.6\MyCoreLib.AliSDK.dll
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\bin\Debug\netstandard1.6\MyCoreLib.AliSDK.pdb
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\obj\Debug\netstandard1.6\MyCoreLib.AliSDK.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\obj\Debug\netstandard1.6\MyCoreLib.AliSDK.dll
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.AliSDK\obj\Debug\netstandard1.6\MyCoreLib.AliSDK.pdb

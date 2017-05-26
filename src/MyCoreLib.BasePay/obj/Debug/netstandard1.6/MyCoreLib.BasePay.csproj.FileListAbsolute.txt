@@ -1,6 +1,7 @@
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\bin\Debug\netstandard1.6\MyCoreLib.BasePay.deps.json
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\bin\Debug\netstandard1.6\MyCoreLib.BasePay.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\bin\Debug\netstandard1.6\MyCoreLib.BasePay.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\obj\Debug\netstandard1.6\MyCoreLib.BasePay.csprojResolveAssemblyReference.cache
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\obj\Debug\netstandard1.6\MyCoreLib.BasePay.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\obj\Debug\netstandard1.6\MyCoreLib.BasePay.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePay\obj\Debug\netstandard1.6\MyCoreLib.BasePay.pdb

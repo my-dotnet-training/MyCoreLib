@@ -1,0 +1,5 @@
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.deps.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.runtimeconfig.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.runtimeconfig.dev.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.AssemblyInfo.cs

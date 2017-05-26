@@ -1,0 +1,5 @@
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.IoCTest\bin\Debug\netcoreapp1.0\MyCoreLib.IoCTest.deps.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.IoCTest\bin\Debug\netcoreapp1.0\MyCoreLib.IoCTest.runtimeconfig.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.IoCTest\bin\Debug\netcoreapp1.0\MyCoreLib.IoCTest.runtimeconfig.dev.json
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.IoCTest\obj\Debug\netcoreapp1.0\MyCoreLib.IoCTest.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.IoCTest\obj\Debug\netcoreapp1.0\MyCoreLib.IoCTest.AssemblyInfo.cs

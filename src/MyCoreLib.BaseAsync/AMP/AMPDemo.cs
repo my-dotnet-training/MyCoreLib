@@ -36,7 +36,8 @@ namespace MyCoreLib.BaseAsync.AMP
                     // Increment the request counter in a thread safe manner.
                     Interlocked.Increment(ref requestCounter);
                     // Start the asynchronous request for DNS information.
-                    Dns.BeginGetHostEntry(host, callBack, host);
+
+                    //Dns.BeginGetHostEntry(host, callBack, host);
                 }
             } while (host.Length > 0);
             // The user has entered all of the host names for lookup.
@@ -88,8 +89,8 @@ namespace MyCoreLib.BaseAsync.AMP
             try
             {
                 // Get the results.
-                IPHostEntry host = Dns.EndGetHostEntry(result);
-                hostData.Add(host);
+                //IPHostEntry host = Dns.EndGetHostEntry(result);
+                //hostData.Add(host);
             }
             // Store the exception message.
             catch (SocketException e)

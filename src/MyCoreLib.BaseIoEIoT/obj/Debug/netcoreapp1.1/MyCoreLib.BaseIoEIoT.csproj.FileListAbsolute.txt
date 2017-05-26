@@ -1,0 +1,7 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\bin\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\bin\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\bin\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\obj\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.csprojResolveAssemblyReference.cache
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\obj\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\obj\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoEIoT\obj\Debug\netcoreapp1.1\MyCoreLib.BaseIoEIoT.pdb
