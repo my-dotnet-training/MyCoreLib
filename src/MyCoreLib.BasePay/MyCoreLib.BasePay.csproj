@@ -11,4 +11,13 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Payment\OpenEPay\" />
+    <Folder Include="Payment\Baofoo\" />
+    <Folder Include="Payment\AliPay\" />
+    <Folder Include="Payment\WeixinPay\" />
+    <Folder Include="Payment\CNUnionPay\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
 </Project>

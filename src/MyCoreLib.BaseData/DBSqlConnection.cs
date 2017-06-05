@@ -25,7 +25,7 @@ namespace MyCoreLib.BaseData
         /// </code></example>
         public DBSqlConnection()
         {
-            connection =new MySqlConnection();
+            connection = new MySqlConnection();
         }
         /// <summary>
         /// Construct a DBSqlConnection object
@@ -55,7 +55,7 @@ namespace MyCoreLib.BaseData
         {
             connection = sqlConnection;
         }
-        
+
         /// <summary>
         /// Dispose a DBSqlConnection object
         /// </summary>

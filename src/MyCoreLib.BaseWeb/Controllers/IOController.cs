@@ -8,7 +8,7 @@ namespace MyCoreLib.BaseWeb.Controllers
     /// 
     /// </summary>
     [AllowAnonymous]
-    public class IOController : BaseController
+    public class IoController : BaseController
     {
         [HttpPost]
         public ActionResult Download()

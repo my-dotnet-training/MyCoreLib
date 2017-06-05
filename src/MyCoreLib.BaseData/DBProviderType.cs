@@ -8,6 +8,7 @@ namespace MyCoreLib.BaseData
         MySql = 3,
         DB2 = 4,
         SequoiaDB = 5,
-        Mongodb = 6
+        Mongodb = 6,
+        Sybase = 7
     }
 }

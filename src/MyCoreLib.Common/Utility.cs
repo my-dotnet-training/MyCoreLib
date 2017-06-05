@@ -135,5 +135,9 @@ namespace MyCoreLib.Common
 
             return Environment.MachineName;
         }
+        public static TimeSpan ConvertToTimeSpan(System.DateTime time)
+        {
+            return System.TimeZoneInfo.Local.GetUtcOffset(time);
+        }
     }
 }

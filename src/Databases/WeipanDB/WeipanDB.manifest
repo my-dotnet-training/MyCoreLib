@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Database xmlns="http://www.sanrenhuo.com/server/DBManifest"
+          name="WeipanDB" packageName="Weipan 1.0"
+          description="The main database for the weipan system."
+          id="8464CC30-EFBB-4D03-A92B-E23291C7C55D" version="1.0">
+  <PreSteps>
+    <Directory>PreSteps</Directory>
+  </PreSteps>
+
+  <Schema>
+    <Family name="Weipan 1.0" Id="EFDFF973-5737-4A4D-AB11-55C5924FB931">
+      <Update>
+        <Change Id="8861B9C4-FD0B-4EEE-B74C-C8597CBBB1AD">
+          <Description>Base schema installation.</Description>
+          <File>SchemaChanges\v1.0\configs.sql</File>
+          <File>SchemaChanges\v1.0\system_dbs.sql</File>
+          <File>SchemaChanges\v1.0\sites.sql</File>
+          <File>SchemaChanges\v1.0\site_tokens.sql</File>
+          <File>SchemaChanges\v1.0\site_posters.sql</File>
+          <File>SchemaChanges\v1.0\site_auto_responses.sql</File>
+          <File>SchemaChanges\v1.0\site_wx_messages.sql</File>
+        </Change>
+        <Change Id="55BD27C3-9BCE-493A-804C-B43707FB85FD">
+          <Description>Management tables.</Description>
+          <File>SchemaChanges\v1.0\Mgmt\mgmt_users.sql</File>
+        </Change>
+        <Change Id="D6916DF2-74C9-498B-A3B0-59CB4CC556C7">
+          <Description>Add system_logs table.</Description>
+          <File>SchemaChanges\v1.0\system_logs.sql</File>
+        </Change>
+        <Change Id="6D73EB45-13CC-421F-B968-6FC88CD1AABA">
+          <Description>Support ID generators.</Description>
+          <File>SchemaChanges\v1.0\system_id_generators.sql</File>
+        </Change>
+        <Change Id="76C04C7F-04A2-4D42-B7CF-E50EA2D86FE5">
+          <Description>Add tables relatived with notice.</Description>
+          <File>SchemaChanges\v1.0\notice\notice.sql</File>   
+          <File>SchemaChanges\v1.0\notice\notice_received_level.sql</File>
+          <File>SchemaChanges\v1.0\notice\notice_read_record.sql</File>
+        </Change>
+        <Change Id="A8233419-FA2F-491E-848F-F86381B0AA90">
+          <Description>Add table for mgmt user relationshop with members.</Description>
+          <File>SchemaChanges\v1.0\Mgmt\mgmt_user_members.sql</File>
+          <File>SchemaChanges\v1.0\Mgmt\mgmt_user_members_init.sql</File>
+        </Change>
+      </Update>
+    </Family>
+  </Schema>
+
+  <!-- FUNCTIONS -->
+  <Functions>
+    <Directory>Functions</Directory>
+  </Functions>
+
+  <!-- VIEWS -->
+  <Views>
+    <Directory>Views</Directory>
+  </Views>
+
+  <!-- STORED PROCEDURES -->
+  <Procedures>
+    <File>WeipanDB.sproc</File>
+  </Procedures>
+</Database>

@@ -6,6 +6,10 @@ using System.Collections.ObjectModel;
 
 namespace MyCoreLib.BaseData
 {
+    /// <summary>
+    /// all connection DB in dictionary for read and write separation
+    /// problem : how to use connection pool to control
+    /// </summary>
     public class DBContext : IDBContext
     {
         private IDictionary<DBInstance, IDBInstance> _map;

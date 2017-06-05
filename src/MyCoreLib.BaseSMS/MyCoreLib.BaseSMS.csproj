@@ -11,4 +11,17 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Aliyun\" />
+    <Folder Include="Juhe\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreLib.Common\MyCoreLib.Common.csproj" />
+  </ItemGroup>
+
 </Project>

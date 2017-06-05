@@ -11,4 +11,9 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="TCP\" />
+    <Folder Include="UDP\" />
+  </ItemGroup>
+
 </Project>

@@ -11,4 +11,17 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="FileLog\Args\ArgParser.ArgTypeInfo.cs" />
+    <Compile Remove="FileLog\Args\ArgParser.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreLib.BaseData\MyCoreLib.BaseData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Log4\" />
+  </ItemGroup>
+
 </Project>

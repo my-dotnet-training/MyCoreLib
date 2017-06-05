@@ -1306,7 +1306,7 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -1321,7 +1321,7 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -2107,6 +2107,15 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "MyCoreLib.BaseIoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.Reflection.Emit.Lightweight": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0"
         }
       }
     }
@@ -6702,12 +6711,17 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "MyCoreLib.BaseIoC/1.0.0": {
+      "type": "project",
+      "path": "../../MyCoreLib.BaseIoC/MyCoreLib.BaseIoC.csproj",
+      "msbuildProject": "../../MyCoreLib.BaseIoC/MyCoreLib.BaseIoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.0": [
-      "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj",
-      "Microsoft.NETCore.App >= 1.0.4"
+      "Microsoft.NETCore.App >= 1.0.4",
+      "MyCoreLib.BaseIoC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6727,8 +6741,8 @@
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj"
+            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj": {
+              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj"
             }
           }
         }

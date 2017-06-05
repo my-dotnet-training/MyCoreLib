@@ -5,6 +5,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 
 namespace MyCoreLib.BaseData
 {
@@ -175,33 +176,29 @@ namespace MyCoreLib.BaseData
         /// <summary>
         /// add parameter
         /// </summary>
-        public static MySqlParameter AddParameterWithValue(this MySqlParameterCollection parameters, string parameterName, MySqlDbType dbType, object value)
+        public static DbParameter AddParameterWithValue(this DbParameterCollection parameters, string parameterName, MySqlDbType dbType, object value)
         {
-            MySqlParameter p = parameters.Add(parameterName, dbType);
-            p.Value = value;
-            return p;
+            return parameters.AddParameterWithValue(parameterName, dbType, value);
         }
 
         /// <summary>
         /// add parameter with size property
         /// </summary>
-        public static MySqlParameter AddParameterWithValue(this MySqlParameterCollection parameters, string parameterName, MySqlDbType dbType, int size, object value)
+        public static DbParameter AddParameterWithValue(this DbParameterCollection parameters, string parameterName, MySqlDbType dbType, int size, object value)
         {
-            MySqlParameter p = parameters.Add(parameterName, dbType, size);
-            p.Value = value;
-            return p;
+            return parameters.AddParameterWithValue(parameterName, dbType, size, value);
         }
 
         /// <summary>
         /// Determines whether the exception is caused by foreign key references.
         /// </summary>
-        public static bool IsForeignKeyFailure(this MySqlException ex)
-        {
-            /*
-             * Error: 1451 SQLSTATE: 23000 (ER_ROW_IS_REFERENCED_2)
-             * Message: Cannot delete or update a parent row: a foreign key constraint fails (%s)
-             */
-            return ex.Number == (int)MySqlErrorCode.RowIsReferenced2;
-        }
+        //public static bool IsForeignKeyFailure(this MySqlException ex)
+        //{
+        //    /*
+        //     * Error: 1451 SQLSTATE: 23000 (ER_ROW_IS_REFERENCED_2)
+        //     * Message: Cannot delete or update a parent row: a foreign key constraint fails (%s)
+        //     */
+        //    return ex.Number == (int)MySqlErrorCode.RowIsReferenced2;
+        //}
     }
 }
