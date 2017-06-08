@@ -4,3 +4,4 @@ E:\training\core\MyCoreLib\src\MyCoreLib.BaseSMS\bin\Debug\netstandard1.6\MyCore
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSMS\obj\Debug\netstandard1.6\MyCoreLib.BaseSMS.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSMS\obj\Debug\netstandard1.6\MyCoreLib.BaseSMS.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSMS\obj\Debug\netstandard1.6\MyCoreLib.BaseSMS.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSMS\obj\Debug\netstandard1.6\MyCoreLib.BaseSMS.csprojResolveAssemblyReference.cache

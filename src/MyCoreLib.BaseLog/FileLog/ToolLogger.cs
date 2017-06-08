@@ -5,9 +5,10 @@ using System.Reflection;
 using System.Text;
 
 namespace MyCoreLib.BaseLog.FileLog
-{ /// <summary>
-  /// Write log entries to the destination file.
-  /// </summary>
+{
+    /// <summary>
+    /// Write log entries to the destination file.
+    /// </summary>
     public static class ToolLogger
     {
         private static TextWriter s_output;

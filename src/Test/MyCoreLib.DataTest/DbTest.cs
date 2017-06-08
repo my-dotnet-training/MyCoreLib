@@ -5,16 +5,17 @@ using System;
 using System.Data;
 using System.Data.Common;
 
-namespace MyCoreLib.BaseDataTest
+namespace MyCoreLib.DataTest
 {
     public class DbTest
     {
         public static void Main(string[] args)
         {
-            using (DBSqlConnection _conn = ConnectTest())
-            {
-                DBSelectOpertion(_conn);
-            }
+            //using (DBSqlConnection _conn = ConnectTest())
+            //{
+            //    DBSelectOpertion(_conn);
+            //}
+            new DbHelperTest().HelperTest2();
             Console.ReadKey();
         }
 

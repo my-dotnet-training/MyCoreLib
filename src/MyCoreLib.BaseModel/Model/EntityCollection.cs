@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace MyCoreLib.BaseModel.Model
 {
@@ -41,11 +43,6 @@ namespace MyCoreLib.BaseModel.Model
             return _list.GetEnumerator();
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return this.GetEnumerator();
-        }
-
         public T GetEntity(int id)
         {
             if (id <= 0)
@@ -55,6 +52,11 @@ namespace MyCoreLib.BaseModel.Model
             if (_idMap.TryGetValue(id, out entity))
                 return entity;
             return null;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
     }
 }

@@ -264,7 +264,7 @@ namespace MyCoreLib.BaseLog.FileLog.Args
                             }
                             catch (ArgumentException)
                             {
-                                if (!Attribute.IsDefined(switchType, typeof(FlagsAttribute), false))
+                                if (!CustomAttributeExtensions.IsDefined(switchType.GetTypeInfo(), typeof(FlagsAttribute), false))
                                 {
                                     throw new InvalidArgException(
                                         switchName,

@@ -4,3 +4,4 @@ E:\training\core\MyCoreLib\src\MyCoreLib.BasePush\bin\Debug\netstandard1.6\MyCor
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePush\obj\Debug\netstandard1.6\MyCoreLib.BasePush.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePush\obj\Debug\netstandard1.6\MyCoreLib.BasePush.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BasePush\obj\Debug\netstandard1.6\MyCoreLib.BasePush.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BasePush\obj\Debug\netstandard1.6\MyCoreLib.BasePush.csprojResolveAssemblyReference.cache

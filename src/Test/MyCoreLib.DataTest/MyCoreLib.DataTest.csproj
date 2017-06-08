@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\MyCoreLib.BaseData\MyCoreLib.BaseData.csproj" />
+    <ProjectReference Include="..\..\MyCoreLib.BaseOrm\MyCoreLib.BaseOrm.csproj" />
   </ItemGroup>
 
 </Project>

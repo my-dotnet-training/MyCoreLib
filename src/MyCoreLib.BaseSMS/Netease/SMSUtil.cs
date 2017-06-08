@@ -8,8 +8,7 @@ namespace MyCoreLib.BaseSMS.Netease
     using System.Text.RegularExpressions;
     using System.Threading;
     using System.Threading.Tasks;
-    using Weipan.Entity;
-    using Weipan.SMS.Models;
+    using MyCoreLib.Common.Extensions;
 
     internal static class SMSUtil
     {

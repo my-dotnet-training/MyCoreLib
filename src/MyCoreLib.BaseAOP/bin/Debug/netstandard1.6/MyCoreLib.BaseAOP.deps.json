@@ -12,7 +12,7 @@
           "NETStandard.Library": "1.6.0"
         },
         "runtime": {
-          "MyCoreLib.BaseAOP.dll": {}
+          "MyCoreLib.BaseAop.dll": {}
         }
       },
       "microsoft.netcore.platforms/1.0.1": {},

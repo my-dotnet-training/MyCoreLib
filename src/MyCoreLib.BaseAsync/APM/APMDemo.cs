@@ -8,9 +8,9 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace MyCoreLib.BaseAsync.AMP
+namespace MyCoreLib.BaseAsync.APM
 {
-    public class AMPDemo
+    public class APMDemo
     {
         static int requestCounter;
         static ArrayList hostData = new ArrayList();

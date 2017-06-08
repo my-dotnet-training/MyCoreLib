@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CE71C81D-9B1B-4079-9742-8967122D5148}"
 EndProject
@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseSocket", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseNet", "src\MyCoreLib.BaseNet\MyCoreLib.BaseNet.csproj", "{0BED08D5-C158-4404-9718-E72487906455}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseAOP", "src\MyCoreLib.BaseAOP\MyCoreLib.BaseAOP.csproj", "{E9324A8A-514B-4753-856D-7DB001D4E095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseAop", "src\MyCoreLib.BaseAOP\MyCoreLib.BaseAop.csproj", "{E9324A8A-514B-4753-856D-7DB001D4E095}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.BaseIoEIoT", "src\MyCoreLib.BaseIoEIoT\MyCoreLib.BaseIoEIoT.csproj", "{26AC7AF4-6013-4AD7-87F7-BD71D8AED2E4}"
 EndProject
@@ -58,6 +58,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCoreLib.IoCTest", "src\Test\MyCoreLib.IoCTest\MyCoreLib.IoCTest.csproj", "{DA1D8181-52FE-4E11-8C56-ADC8F38CBF85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{73024585-78C3-4063-9BB4-06C2B3328633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoreLib.BaseOrm", "src\MyCoreLib.BaseOrm\MyCoreLib.BaseOrm.csproj", "{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{DA1D8181-52FE-4E11-8C56-ADC8F38CBF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1D8181-52FE-4E11-8C56-ADC8F38CBF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1D8181-52FE-4E11-8C56-ADC8F38CBF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,5 +194,6 @@ Global
 		{B73E12CB-DDB6-473B-9866-E3B09E3D1AC8} = {97A33476-AEFA-4CAB-A103-77975D96E221}
 		{DA1D8181-52FE-4E11-8C56-ADC8F38CBF85} = {97A33476-AEFA-4CAB-A103-77975D96E221}
 		{73024585-78C3-4063-9BB4-06C2B3328633} = {CE71C81D-9B1B-4079-9742-8967122D5148}
+		{BC140B9D-1670-4AFC-BC95-A709AE9A3E9F} = {CE71C81D-9B1B-4079-9742-8967122D5148}
 	EndGlobalSection
 EndGlobal

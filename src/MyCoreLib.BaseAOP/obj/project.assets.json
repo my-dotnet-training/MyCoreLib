@@ -4025,9 +4025,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAOP.csproj",
-      "projectName": "MyCoreLib.BaseAOP",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAOP.csproj",
+      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
+      "projectName": "MyCoreLib.BaseAop",
+      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
       "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [

@@ -17,24 +17,24 @@ namespace MyCoreLib.BaseSMS.Netease
         [JsonProperty("app_secret")]
         public string SMSAppSecret { get; set; }
 
-        public override string ToString()
-        {
-            return this.ToJsonString(GlobalConfigurations.ConfigJsonSettings);
-        }
+        //public override string ToString()
+        //{
+        //    return this.ToJsonString(GlobalConfigurations.ConfigJsonSettings);
+        //}
 
         /// <summary>
         /// Try to read and deserialize settings.
         /// </summary>
-        internal static INetEaseSMSConfiguration FromGlobalConfigs(GlobalConfigurations configs)
-        {
-            string text = configs[GlobalConfigurationKey.NetEaseSMSConfigs];
+        //internal static INetEaseSMSConfiguration FromGlobalConfigs(GlobalConfigurations configs)
+        //{
+        //    string text = configs[GlobalConfigurationKey.NetEaseSMSConfigs];
 
-            INetEaseSMSConfiguration settings = null;
-            if (!string.IsNullOrEmpty(text))
-            {
-                settings = text.FromJsonString<NetEaseSMSConfiguration>();
-            }
-            return settings ?? new NetEaseSMSConfiguration();
-        }
+        //    INetEaseSMSConfiguration settings = null;
+        //    if (!string.IsNullOrEmpty(text))
+        //    {
+        //        settings = text.FromJsonString<NetEaseSMSConfiguration>();
+        //    }
+        //    return settings ?? new NetEaseSMSConfiguration();
+        //}
     }
 }

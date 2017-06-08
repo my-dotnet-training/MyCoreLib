@@ -3,3 +3,13 @@ E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\M
 E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.runtimeconfig.dev.json
 E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.csprojResolveAssemblyReference.cache
 E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.dll
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.DataTest.pdb
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.BaseData.dll
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.BaseIoC.dll
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.Common.dll
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.BaseData.pdb
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.BaseIoC.pdb
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\bin\Debug\netcoreapp1.0\MyCoreLib.Common.pdb
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.dll
+E:\training\core\MyCoreLib\src\Test\MyCoreLib.DataTest\obj\Debug\netcoreapp1.0\MyCoreLib.DataTest.pdb

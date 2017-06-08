@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MyCoreLib.BaseAsync.AMP
+namespace MyCoreLib.BaseAsync.APM
 {
     public static class InvokeMamager
     {

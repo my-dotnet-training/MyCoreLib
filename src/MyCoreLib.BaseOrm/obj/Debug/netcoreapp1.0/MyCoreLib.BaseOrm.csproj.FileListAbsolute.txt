@@ -1,0 +1,6 @@
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\bin\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.deps.json
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\obj\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.AssemblyInfo.cs
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\bin\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\bin\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\obj\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseOrm\obj\Debug\netcoreapp1.0\MyCoreLib.BaseOrm.pdb

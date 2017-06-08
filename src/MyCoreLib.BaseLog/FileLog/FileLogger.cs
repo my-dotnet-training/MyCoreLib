@@ -38,7 +38,7 @@ namespace MyCoreLib.BaseLog.FileLog
             // Enable auto-flush to avoid missing logs on app crash.
             Trace.AutoFlush = true;
             Trace.WriteLine(null);
-            Trace.WriteLine("## Tracer starts to work in quotation service ##");
+            Trace.WriteLine("## Tracer starts to work ##");
         }
 
         public static void WriteLine(TraceLevel level, string format, params object[] args)
