@@ -12,11 +12,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyCoreLib.BaseData\MyCoreLib.BaseData.csproj" />
+    <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Log4\" />
+    <ProjectReference Include="..\MyCoreLib.BaseData\MyCoreLib.BaseData.csproj" />
   </ItemGroup>
 
 </Project>

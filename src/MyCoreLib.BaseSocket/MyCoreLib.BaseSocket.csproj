@@ -17,4 +17,8 @@
     <Folder Include="Config\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreLib.BaseLog\MyCoreLib.BaseLog.csproj" />
+  </ItemGroup>
+
 </Project>

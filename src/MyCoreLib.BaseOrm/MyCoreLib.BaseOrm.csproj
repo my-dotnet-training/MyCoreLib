@@ -1,9 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <Description>MyCoreLib.BaseOrm</Description>
+    <Copyright>Bitter Zhang</Copyright>
+    <AssemblyTitle>MyCoreLib.BaseOrm</AssemblyTitle>
+    <VersionPrefix>1.1.1</VersionPrefix>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>MyCoreLib.BaseOrm</AssemblyName>
+    <PackageId>MyCoreLib.BaseOrm</PackageId>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
   </PropertyGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="..\MyCoreLib.Common\MyCoreLib.Common.csproj" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
   </ItemGroup>

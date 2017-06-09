@@ -5,3 +5,9 @@ E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCore
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\obj\Debug\netstandard1.6\MyCoreLib.BaseLog.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseData.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.Common.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseData.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseLog\bin\Debug\netstandard1.6\MyCoreLib.Common.pdb

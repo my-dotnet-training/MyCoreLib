@@ -10,7 +10,7 @@ namespace MyCoreLib.BaseLog.FileLog
     /// <summary>
     /// Provider logging functions.
     /// </summary>
-    public static class FileLogger
+    public static class FileLog
     {
         private static string[] s_labelArray;
 
@@ -99,7 +99,7 @@ namespace MyCoreLib.BaseLog.FileLog
             // Log the unknown exception.
             if (ex != null)
             {
-                FileLogger.WriteLine(TraceLevel.Error, "Unexpected exception: {0}", ex);
+                FileLog.WriteLine(TraceLevel.Error, "Unexpected exception: {0}", ex);
             }
         }
     }

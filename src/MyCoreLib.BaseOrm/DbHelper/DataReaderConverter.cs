@@ -42,7 +42,7 @@ namespace MyCoreLib.BaseOrm.DbHelper
                 _fields.Add(reader.GetName(i).ToLowerInvariant(), i);
             var _type = typeof(T);
             var _mappingList = new List<Mapping>(_fieldCount);
-            foreach (var _prop in _type.GetProperties())
+            foreach (var _prop in _type.GetTypeInfo().GetProperties())
             {
                 var _name = _prop.Name;
                 int _index;
