@@ -8,7 +8,7 @@ namespace MyCoreLib.BaseAsync.TAP
     {
         static CancellationToken cancellationToken;
         /// <summary>
-        /// 
+        /// cancel all task
         /// </summary>
         public static CancellationTokenSource TaskCancellationToken = new CancellationTokenSource();
 
@@ -16,29 +16,36 @@ namespace MyCoreLib.BaseAsync.TAP
         /// 
         /// </summary>
         /// <param name="message"></param>
-        public static void CancelTasks(string message = "") 
+        public static void CancelTasks(string message = "")
         {
             //if (!string.IsNullOrEmpty(message))
             //    TaskManager.TaskCancellationToken.Token.Register(() =>
             //    {
             //        MessageBox.Show(message);
             //    }, true);
-            TaskManager.TaskCancellationToken.Cancel();
+            //TaskCancellationToken.Cancel();
 
             if (cancellationToken.IsCancellationRequested)
-            {
+                //TaskCancellationToken.Cancel();
                 Task.FromCanceled(cancellationToken);
-            }
+
         }
 
         /// <summary>
         /// 
         /// </summary>
-        public static void AddCancel()
+        public static void AddCancel(Action callback = null)
         {
+            cancellationToken = TaskCancellationToken.Token;
             //TaskManager.TaskCancellationToken.Token.ThrowIfCancellationRequested();
-            if (TaskManager.TaskCancellationToken.IsCancellationRequested)
-                throw new OperationCanceledException(TaskManager.TaskCancellationToken.Token);
+            if (cancellationToken.IsCancellationRequested)
+                throw new OperationCanceledException(cancellationToken);
+
+            if (callback != null)
+                cancellationToken.Register(() =>
+                {
+                    callback();
+                });
         }
 
         /// <summary>
@@ -48,11 +55,11 @@ namespace MyCoreLib.BaseAsync.TAP
         /// <param name="taskDone"></param>
         /// <param name="handleException"></param>
         /// <param name="scheduler"></param>
-        public static Task StartNew(System.Action taskStart, System.Action taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
+        public static Task StartNew(Action taskStart, Action taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
         {
-            if (TaskManager.TaskCancellationToken.IsCancellationRequested)
-                TaskManager.TaskCancellationToken = new CancellationTokenSource();
-            Task task = Task.Factory.StartNew(taskStart, TaskCancellationToken.Token);
+            //if (TaskCancellationToken.IsCancellationRequested)
+            //    TaskCancellationToken = new CancellationTokenSource();
+            Task task = Task.Factory.StartNew(taskStart, cancellationToken);
 
             if (taskDone != null)
                 task.ContinueWith(t => taskDone, CancellationToken.None,
@@ -69,6 +76,30 @@ namespace MyCoreLib.BaseAsync.TAP
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="taskStart"></param>
+        /// <param name="taskDone"></param>
+        /// <param name="handleException"></param>
+        /// <param name="scheduler"></param>
+        public static Task StartNew(Action taskStart, TaskCreationOptions taskOption, Action taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
+        {
+            //if (TaskCancellationToken.IsCancellationRequested)
+            //    TaskCancellationToken = new CancellationTokenSource();
+            Task task = Task.Factory.StartNew(taskStart, cancellationToken, taskOption, scheduler);
+
+            if (taskDone != null)
+                task.ContinueWith(t => taskDone, CancellationToken.None,
+                  TaskContinuationOptions.OnlyOnRanToCompletion,
+                  scheduler);
+
+            if (handleException != null)
+                task.ContinueWith(t => handleException(t.Exception), CancellationToken.None,
+                  TaskContinuationOptions.OnlyOnFaulted, scheduler);
+
+            return task;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="taskStart"></param>
         /// <param name="taskDone"></param>
@@ -76,9 +107,41 @@ namespace MyCoreLib.BaseAsync.TAP
         /// <param name="scheduler"></param>
         public static Task<T> StartNew<T>(Func<T> taskStart, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
         {
-            if (TaskManager.TaskCancellationToken.IsCancellationRequested)
-                TaskManager.TaskCancellationToken = new CancellationTokenSource();
-            Task<T> task = Task<T>.Factory.StartNew(taskStart, TaskCancellationToken.Token);
+            //if (TaskManager.TaskCancellationToken.IsCancellationRequested)
+            //    TaskManager.TaskCancellationToken = new CancellationTokenSource();
+            Task<T> task = Task<T>.Factory.StartNew(taskStart, cancellationToken);
+           
+            if (taskDone != null)
+                task.ContinueWith(t => taskDone(t.Result), CancellationToken.None,
+                  TaskContinuationOptions.OnlyOnRanToCompletion,
+                  scheduler);
+
+            //if (handleException != null)
+            //    task.ContinueWith(t => handleException(t.Exception), CancellationToken.None,
+            //      TaskContinuationOptions.OnlyOnFaulted, scheduler);
+            task.ContinueWith(t =>
+            {
+                if (handleException != null)
+                    handleException(t.Exception);
+                else
+                    t.Exception.OutputException(null);
+            }, CancellationToken.None, TaskContinuationOptions.OnlyOnFaulted, scheduler);
+
+            return task;
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="taskStart"></param>
+        /// <param name="taskDone"></param>
+        /// <param name="handleException"></param>
+        /// <param name="scheduler"></param>
+        public static Task<T> StartNew<T>(Func<T> taskStart, TaskCreationOptions taskOption, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
+        {
+            //if (TaskManager.TaskCancellationToken.IsCancellationRequested)
+            //    TaskManager.TaskCancellationToken = new CancellationTokenSource();
+            Task<T> task = Task<T>.Factory.StartNew(taskStart, cancellationToken, taskOption, scheduler);
 
             if (taskDone != null)
                 task.ContinueWith(t => taskDone(t.Result), CancellationToken.None,
@@ -92,19 +155,11 @@ namespace MyCoreLib.BaseAsync.TAP
             return task;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="taskStart"></param>
-        /// <param name="taskDone"></param>
-        /// <param name="handleException"></param>
-        /// <param name="scheduler"></param>
-        public static void Start<T>(Func<T> taskStart, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
+        public static Task<T> FromAsync<T>(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, T> endMethod, object[] state, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
         {
-            if (TaskManager.TaskCancellationToken.IsCancellationRequested)
-                TaskManager.TaskCancellationToken = new CancellationTokenSource();
-            Task<T> task = Task<T>.Factory.StartNew(taskStart, TaskCancellationToken.Token);
+            //if (TaskCancellationToken.IsCancellationRequested)
+            //    TaskCancellationToken = new CancellationTokenSource();
+            Task<T> task = Task<T>.Factory.FromAsync(beginMethod, endMethod, state);
 
             if (taskDone != null)
                 task.ContinueWith(t => taskDone(t.Result), CancellationToken.None,
@@ -114,13 +169,13 @@ namespace MyCoreLib.BaseAsync.TAP
             if (handleException != null)
                 task.ContinueWith(t => handleException(t.Exception), CancellationToken.None,
                   TaskContinuationOptions.OnlyOnFaulted, scheduler);
+            return task;
         }
-
-        public static Task<T> FromAsync<T>(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, T> endMethod, object[] state, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
+        public static Task<T> FromAsync<T>(Func<AsyncCallback, object, IAsyncResult> beginMethod, Func<IAsyncResult, T> endMethod, object[] state, TaskCreationOptions taskOption, Action<T> taskDone = null, Action<AggregateException> handleException = null, TaskScheduler scheduler = null)
         {
-            if (TaskManager.TaskCancellationToken.IsCancellationRequested)
-                TaskManager.TaskCancellationToken = new CancellationTokenSource();
-            Task<T> task = Task<T>.Factory.FromAsync(beginMethod, endMethod, state);
+            //if (TaskCancellationToken.IsCancellationRequested)
+            //    TaskCancellationToken = new CancellationTokenSource();
+            Task<T> task = Task<T>.Factory.FromAsync(beginMethod, endMethod, state, taskOption);
 
             if (taskDone != null)
                 task.ContinueWith(t => taskDone(t.Result), CancellationToken.None,
@@ -154,6 +209,9 @@ namespace MyCoreLib.BaseAsync.TAP
             //        null,
             //        innerException.Message);
             //}
+
+            foreach (Exception innerException in exception.InnerExceptions)
+                Console.WriteLine(innerException);
         }
     }
 }

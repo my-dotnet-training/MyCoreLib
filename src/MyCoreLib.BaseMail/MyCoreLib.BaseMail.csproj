@@ -11,4 +11,8 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NETCore.MailKit" Version="1.0.1" />
+  </ItemGroup>
+
 </Project>

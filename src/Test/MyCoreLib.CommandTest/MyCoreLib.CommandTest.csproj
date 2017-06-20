@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\MyCoreLib.BaseLog\MyCoreLib.BaseLog.csproj" />
+    <ProjectReference Include="..\src\MyCoreLib.Common\MyCoreLib.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+﻿{
+  "temp": {
+    "expire_seconds": 1800,
+    "action_name": "QR_SCENE",
+    "action_info": { "scene": { "scene_id": 100000 } }
+  },
+  "forever1": {
+    "action_name": "QR_LIMIT_SCENE",
+    "action_info": { "scene": { "scene_id": 1000 } }
+  },
+  "forever2": {
+    "action_name": "QR_LIMIT_STR_SCENE",
+    "action_info": { "scene": { "scene_str": "01World" } }
+  }
+}

@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web;
+using MyCoreLib.WeixinSDK.Entiyies;
+
+namespace MyCoreLib.WeixinSDK.Apis.Pay.Business
+{
+    public class OrderQuery
+    {
+        /// <summary>
+        /// 订单查询完整业务流程逻辑
+        /// </summary>
+        /// <param name="transaction_id">微信订单号（优先使用）</param>
+        /// <param name="out_trade_no">商户订单号</param>
+        /// <returns>订单查询结果（xml格式）</returns>
+        public static string Run(string transaction_id, string out_trade_no)
+        {
+            WxPayData data = new WxPayData();
+            if (!string.IsNullOrEmpty(transaction_id))//如果微信订单号存在，则以微信订单号为准
+                data.SetValue("transaction_id", transaction_id);
+            else//微信订单号不存在，才根据商户订单号去查单
+                data.SetValue("out_trade_no", out_trade_no);
+
+            WxPayData result = WxPayAPI2.OrderQuery(data);//提交订单查询请求给API，接收返回数据
+            return result.ToPrintStr();
+        }
+    }
+}

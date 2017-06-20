@@ -14,7 +14,7 @@ namespace MyCoreLib.BaseLog.FileLog
     {
         private static string[] s_labelArray;
 
-        public static void Init(string path,bool supportConsoleOutput)
+        public static void Init(string path, bool supportConsoleOutput)
         {
             // Initialize label array
             s_labelArray = new string[(int)TraceLevel.Verbose + 1];
@@ -101,6 +101,23 @@ namespace MyCoreLib.BaseLog.FileLog
             {
                 FileLog.WriteLine(TraceLevel.Error, "Unexpected exception: {0}", ex);
             }
+        }
+
+
+        public static Task AsyncRun(this ILogFactory logProvider, Action task, TaskCreationOptions taskOption, Action<Exception> exceptionHandler)
+        {
+            return Task.Factory.StartNew(task, taskOption).ContinueWith(t =>
+            {
+                if (exceptionHandler != null)
+                    exceptionHandler(t.Exception);
+                else
+                {
+                    for (var i = 0; i < t.Exception.InnerExceptions.Count; i++)
+                    {
+                        logProvider.GetLog("Logger").Error(t.Exception.InnerExceptions[i]);
+                    }
+                }
+            }, TaskContinuationOptions.OnlyOnFaulted);
         }
     }
 }

@@ -154,16 +154,16 @@ namespace MyCoreLib.BaseLog.FileLog.Args
                         descText.Append('\"');
                         
                         // Get the description defined for the enum member
-                        var enumValueDesc = (ArgEnumValueDescriptionAttribute)Attribute.GetCustomAttribute(
-                            switchType.GetField(enumMember.ToString()),
-                            typeof(ArgEnumValueDescriptionAttribute),
-                            false);
-                        if (enumValueDesc != null && string.IsNullOrEmpty(enumValueDesc.Description))
-                        {
-                            descText.Append('(');
-                            descText.Append(enumValueDesc.Description);
-                            descText.Append(')');
-                        }
+                        //var enumValueDesc = (ArgEnumValueDescriptionAttribute)Attribute.GetCustomAttribute(
+                        //    switchType.GetField(enumMember.ToString()),
+                        //    typeof(ArgEnumValueDescriptionAttribute),
+                        //    false);
+                        //if (enumValueDesc != null && string.IsNullOrEmpty(enumValueDesc.Description))
+                        //{
+                        //    descText.Append('(');
+                        //    descText.Append(enumValueDesc.Description);
+                        //    descText.Append(')');
+                        //}
                     }
                     descText.Append('.');
                 }

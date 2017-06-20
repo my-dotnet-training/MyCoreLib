@@ -1,0 +1,84 @@
+﻿{
+  "button": [
+    {
+      "name": "海外商品",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "促销活动",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3MzE2Njc0OA==&mid=207887052&idx=1&sn=4337932e9b930b10b5aa82b2bfa1033a&scene=18#wechat_redirect"
+        },
+        {
+          "type": "view",
+          "name": "新品到货",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3MzE2Njc0OA==&mid=207970649&idx=1&sn=62fa6129790109fd4f1426d12070cf8d&scene=18#wechat_redirect"
+        },
+        {
+          "type": "view",
+          "name": "calbee麦片预售",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3MzE2Njc0OA==&mid=207883992&idx=1&sn=7a99c3008250f3f049174b3dc392d095&scene=18#wechat_redirect"
+        },
+        {
+          "type": "view",
+          "name": "参天眼药水预售",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzA3MzE2Njc0OA==&mid=208098560&idx=1&sn=54c760ef099c887cdc9489ace1b5fd47&scene=18#wechat_redirect"
+        }
+      ]
+    },
+    {
+      "name": "加盟店铺",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "东忠科技园店",
+          "url": "http://m.01world.com/Store/Home?code=hztotyu"
+        }
+      ]
+    },
+    {
+      "name": "我的01",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "我的01",
+          "key": "V1001_My01"
+        },
+        {
+          "type": "click",
+          "name": "绑定账号",
+          "key": "V1001_Binding"
+        },
+        {
+          "type": "click",
+          "name": "JSAPI支付测试",
+          "key": "V1001_JSAPIPay"
+        },
+        {
+          "type": "click",
+          "name": "扫码支付测试",
+          "key": "V1001_NativePay"
+        },
+        {
+          "type": "view",
+          "name": "申请退款测试",
+          "url": "http://weixinapitest.t.totyu.cn/WeixinPay2/RefundOrder"
+        },
+        {
+          "type": "view",
+          "name": "查询订单测试",
+          "url": "http://weixinapitest.t.totyu.cn/WeixinPay2/OrderQuery"
+        },
+        {
+          "type": "view",
+          "name": "查询退款测试",
+          "url": "http://weixinapitest.t.totyu.cn/WeixinPay2/RefundQuery"
+        },
+        {
+          "type": "view",
+          "name": "下载对账单测试",
+          "url": "http://weixinapitest.t.totyu.cn/WeixinPay2/DownloadBill"
+        }
+      ]
+    }
+  ]
+}

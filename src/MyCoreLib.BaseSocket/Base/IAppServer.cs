@@ -1,4 +1,5 @@
 ﻿
+using MyCoreLib.BaseLog;
 using MyCoreLib.BaseLog.Log4;
 using System;
 using System.Security.Authentication;

@@ -1,0 +1,11 @@
+﻿<xml>
+  <ToUserName><![CDATA[{1}]]></ToUserName>
+  <FromUserName><![CDATA[{2}]]></FromUserName>
+  <CreateTime>{3}</CreateTime>
+  <MsgType><![CDATA[location]]></MsgType>
+  <Location_X>{4}</Location_X>
+  <Location_Y>{5}</Location_Y>
+  <Scale>{6}</Scale>
+  <Label><![CDATA[{7}]]></Label>
+  <MsgId>{8}</MsgId>
+</xml>

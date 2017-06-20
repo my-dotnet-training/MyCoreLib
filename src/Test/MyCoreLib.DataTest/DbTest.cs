@@ -4,6 +4,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Data;
 using System.Data.Common;
+using MyCoreLib.Common.Helper;
 
 namespace MyCoreLib.DataTest
 {
@@ -15,7 +16,9 @@ namespace MyCoreLib.DataTest
             //{
             //    DBSelectOpertion(_conn);
             //}
-            new DbHelperTest().HelperTest2();
+
+            DbHelperTest test = new DbHelperTest();
+            test.HelperTest2();
             Console.ReadKey();
         }
 
