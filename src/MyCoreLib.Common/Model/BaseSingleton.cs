@@ -1,4 +1,6 @@
 ﻿
+using System.Threading;
+
 namespace MyCoreLib.Common.Model
 {
     public class BaseSingleton<T> where T : class, new()
@@ -14,10 +16,11 @@ namespace MyCoreLib.Common.Model
             {
                 if (_Instance == null)
                 {
-                    lock (lockHelper)
-                    {
-                        if (_Instance == null) _Instance = new T();
-                    }
+                    //lock (lockHelper)
+                    //{
+                    //if (_Instance == null)
+                    Interlocked.CompareExchange(ref _Instance, new T(), null);
+                    //}
                 }
 
                 return _Instance;

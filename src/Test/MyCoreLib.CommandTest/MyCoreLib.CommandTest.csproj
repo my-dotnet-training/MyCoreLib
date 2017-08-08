@@ -6,8 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\MyCoreLib.BaseLog\MyCoreLib.BaseLog.csproj" />
-    <ProjectReference Include="..\src\MyCoreLib.Common\MyCoreLib.Common.csproj" />
+    <ProjectReference Include="..\..\MyCoreLib.BaseLog\MyCoreLib.BaseLog.csproj" />
+    <ProjectReference Include="..\..\MyCoreLib.BaseMail\MyCoreLib.BaseMail.csproj" />
+    <ProjectReference Include="..\..\MyCoreLib.Common\MyCoreLib.Common.csproj" />
   </ItemGroup>
 
 </Project>

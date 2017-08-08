@@ -8,7 +8,7 @@ namespace MyCoreLib.BaseLog
     /// <summary>
     /// LogFactory Base class
     /// </summary>
-    public abstract class LogFactoryBase : ILogFactory
+    public abstract class LogFactoryBase : ILoggerProvider
     {
         /// <summary>
         /// Gets the config file file path.
@@ -24,7 +24,7 @@ namespace MyCoreLib.BaseLog
         /// Initializes a new instance of the <see cref="LogFactoryBase"/> class.
         /// </summary>
         /// <param name="configFile">The config file.</param>
-        protected LogFactoryBase(string configFile)
+        protected LogFactoryBase(string configFile = "")
         {
             ConfigFile = configFile;
         }

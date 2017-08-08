@@ -4,3 +4,12 @@ E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyC
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseData.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseLog.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.Common.dll
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseLog.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseData.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\bin\Debug\netstandard1.6\MyCoreLib.Common.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseSocket\obj\Debug\netstandard1.6\MyCoreLib.BaseSocket.csprojResolveAssemblyReference.cache

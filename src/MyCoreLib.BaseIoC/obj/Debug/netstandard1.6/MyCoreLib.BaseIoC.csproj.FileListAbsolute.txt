@@ -1,7 +1,7 @@
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.deps.json
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\bin\Debug\netstandard1.6\MyCoreLib.BaseIoC.pdb
-E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\obj\Debug\netstandard1.6\MyCoreLib.BaseIoC.csprojResolveAssemblyReference.cache
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\obj\Debug\netstandard1.6\MyCoreLib.BaseIoC.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\obj\Debug\netstandard1.6\MyCoreLib.BaseIoC.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\obj\Debug\netstandard1.6\MyCoreLib.BaseIoC.pdb
+E:\training\core\MyCoreLib\src\MyCoreLib.BaseIoC\obj\Debug\netstandard1.6\MyCoreLib.BaseIoC.csprojResolveAssemblyReference.cache

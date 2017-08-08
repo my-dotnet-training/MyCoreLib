@@ -7,7 +7,7 @@ namespace MyCoreLib.CommandTest
 {
     public class LogProviderDemo
     {
-        public ILogFactory SystemDBLog()
+        public ILoggerProvider SystemDBLog()
         {
             //ProviderKey demoKey = ProviderKeyManager.Providers["LogDemo"];
             //if (demoKey == null)

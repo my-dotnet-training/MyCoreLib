@@ -4,3 +4,4 @@ E:\training\core\MyCoreLib\src\Third\MyCoreLib.WeixinSDK\bin\Debug\netstandard1.
 E:\training\core\MyCoreLib\src\Third\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.AssemblyInfo.cs
 E:\training\core\MyCoreLib\src\Third\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.dll
 E:\training\core\MyCoreLib\src\Third\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.pdb
+E:\training\core\MyCoreLib\src\Third\MyCoreLib.WeixinSDK\obj\Debug\netstandard1.6\MyCoreLib.WeixinSDK.csprojResolveAssemblyReference.cache

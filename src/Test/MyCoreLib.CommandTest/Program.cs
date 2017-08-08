@@ -42,10 +42,8 @@ namespace MyCoreLib.CommandTest
             if (_t != null && (_index = Teachs.IndexOf(_t)) >= 0)
                 Teachs[_index] = value;
         }
-    }
-    class Program
-    {
-        static void Main(string[] args)
+
+        public void Demo()
         {
             IMailProvider _mail = new MailKitProviderDemo().MailKitProvider();
             MailEntity _mailEntity = new MailEntity()
@@ -70,7 +68,7 @@ namespace MyCoreLib.CommandTest
             _mail.Init(_setting);
             _mail.Send(_mailEntity);
 
-            ILogFactory _logf = new LogProviderDemo().SystemDBLog();
+            ILoggerProvider _logf = new LogProviderDemo().SystemDBLog();
             ILog _log = _logf.GetLog("Demo");
             _log.Debug("Hello");
 
@@ -89,6 +87,21 @@ namespace MyCoreLib.CommandTest
             _col.Teachs.Add(_teach2);
             Console.WriteLine(_col[0].Name + "--" + _col["b"].Age);
 
+            Console.ReadKey();
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //new AcrossRiver<int>().Across();
+            //Console.WriteLine(MathHelper.Sum<int>(array =>
+            //{
+            //    int _result = 0;
+            //    foreach (var p in array)
+            //        _result += p;
+            //    return _result;
+            //}, new int[] { 1, 2 }));
             Console.ReadKey();
         }
     }

@@ -104,7 +104,7 @@ namespace MyCoreLib.BaseLog.FileLog
         }
 
 
-        public static Task AsyncRun(this ILogFactory logProvider, Action task, TaskCreationOptions taskOption, Action<Exception> exceptionHandler)
+        public static Task AsyncRun(this ILoggerProvider logProvider, Action task, TaskCreationOptions taskOption, Action<Exception> exceptionHandler)
         {
             return Task.Factory.StartNew(task, taskOption).ContinueWith(t =>
             {

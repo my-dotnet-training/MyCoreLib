@@ -13,9 +13,9 @@ namespace MyCoreLib.BaseLog
         /// <value>
         /// The log factory.
         /// </value>
-        private static ILogFactory m_logFactory;
+        private static ILoggerProvider m_logFactory;
 
-        public static ILogFactory SetupLogFactory()
+        public static ILoggerProvider SetupLogFactory()
         {
             m_logFactory = new Log4NetLogFactory();
             return m_logFactory;
