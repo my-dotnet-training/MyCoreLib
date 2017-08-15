@@ -4025,10 +4025,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\MyCoreLib.AliSDK.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\MyCoreLib.AliSDK.csproj",
       "projectName": "MyCoreLib.AliSDK",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\MyCoreLib.AliSDK.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\MyCoreLib.AliSDK.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.AliSDK\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

@@ -7386,10 +7386,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BasePush\\MyCoreLib.BasePush.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BasePush\\MyCoreLib.BasePush.csproj",
       "projectName": "MyCoreLib.BasePush",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BasePush\\MyCoreLib.BasePush.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BasePush\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BasePush\\MyCoreLib.BasePush.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BasePush\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7397,8 +7397,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
             }
           }
         }

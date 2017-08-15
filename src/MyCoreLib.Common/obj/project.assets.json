@@ -7025,10 +7025,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj",
       "projectName": "MyCoreLib.Common",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

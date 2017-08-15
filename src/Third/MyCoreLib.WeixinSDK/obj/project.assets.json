@@ -7038,10 +7038,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\MyCoreLib.WeixinSDK.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\MyCoreLib.WeixinSDK.csproj",
       "projectName": "MyCoreLib.WeixinSDK",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\MyCoreLib.WeixinSDK.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\MyCoreLib.WeixinSDK.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\Third\\MyCoreLib.WeixinSDK\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7049,8 +7049,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
             }
           }
         }

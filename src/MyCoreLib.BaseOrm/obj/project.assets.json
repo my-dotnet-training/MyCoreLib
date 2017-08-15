@@ -7039,10 +7039,10 @@
   "project": {
     "version": "1.1.1",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\MyCoreLib.BaseOrm.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\MyCoreLib.BaseOrm.csproj",
       "projectName": "MyCoreLib.BaseOrm",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\MyCoreLib.BaseOrm.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\MyCoreLib.BaseOrm.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseOrm\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7050,8 +7050,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
             }
           }
         }

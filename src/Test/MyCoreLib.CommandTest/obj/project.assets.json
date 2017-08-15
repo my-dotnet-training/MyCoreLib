@@ -9379,10 +9379,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\MyCoreLib.CommandTest.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\MyCoreLib.CommandTest.csproj",
       "projectName": "MyCoreLib.CommandTest",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\MyCoreLib.CommandTest.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\MyCoreLib.CommandTest.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.CommandTest\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -9390,14 +9390,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj"
             },
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
             },
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj"
             }
           }
         }

@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\MyCoreLib.BaseIoEIoT.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\MyCoreLib.BaseIoEIoT.csproj",
       "projectName": "MyCoreLib.BaseIoEIoT",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\MyCoreLib.BaseIoEIoT.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\MyCoreLib.BaseIoEIoT.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoEIoT\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

@@ -4348,10 +4348,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\MyCoreLib.IoCTest.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\MyCoreLib.IoCTest.csproj",
       "projectName": "MyCoreLib.IoCTest",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\MyCoreLib.IoCTest.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\MyCoreLib.IoCTest.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\Test\\MyCoreLib.IoCTest\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -4359,8 +4359,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj"
             }
           }
         }

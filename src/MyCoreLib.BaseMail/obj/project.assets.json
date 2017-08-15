@@ -5868,10 +5868,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj",
       "projectName": "MyCoreLib.BaseMail",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMail\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMail\\MyCoreLib.BaseMail.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMail\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

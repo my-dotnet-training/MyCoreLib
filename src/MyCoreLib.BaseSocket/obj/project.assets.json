@@ -7703,10 +7703,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\MyCoreLib.BaseSocket.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\MyCoreLib.BaseSocket.csproj",
       "projectName": "MyCoreLib.BaseSocket",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\MyCoreLib.BaseSocket.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\MyCoreLib.BaseSocket.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSocket\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7714,8 +7714,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj"
             }
           }
         }

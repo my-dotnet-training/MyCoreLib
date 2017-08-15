@@ -7039,10 +7039,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\MyCoreLib.BaseSMS.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\MyCoreLib.BaseSMS.csproj",
       "projectName": "MyCoreLib.BaseSMS",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\MyCoreLib.BaseSMS.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\MyCoreLib.BaseSMS.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseSMS\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7050,8 +7050,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.Common\\MyCoreLib.Common.csproj"
             }
           }
         }

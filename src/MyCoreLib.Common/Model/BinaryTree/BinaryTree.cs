@@ -5,7 +5,7 @@ namespace MyCoreLib.Common.Model.BinaryTree
 {
     public class BinaryTree<T> : BaseClassIndexable<T>, IBinaryTree
     {
-        List<BaseBinaryTreeEntity<T>> NoteList { get; set; }
+        List<IBinaryTreeNote> NoteList { get; set; }
 
         public bool AddNote(IBinaryTreeNote note)
         {
@@ -22,7 +22,7 @@ namespace MyCoreLib.Common.Model.BinaryTree
         public override T CallByIndex(int index)
         {
             var _note = NoteList.Find(e => { return e.Index == index; });
-            return _note == null ? default(T) : _note.Value;
+            return _note == null ? default(T) : (T)_note.Value;
         }
         public override void SetByIndex(int index, T value)
         {

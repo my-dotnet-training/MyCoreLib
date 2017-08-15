@@ -4025,10 +4025,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
       "projectName": "MyCoreLib.BaseAop",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\MyCoreLib.BaseAop.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAOP\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

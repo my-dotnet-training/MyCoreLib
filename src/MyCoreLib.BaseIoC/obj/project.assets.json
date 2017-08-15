@@ -4027,10 +4027,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj",
       "projectName": "MyCoreLib.BaseIoC",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\MyCoreLib.BaseIoC.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseIoC\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

@@ -5,3 +5,8 @@ E:\training\core\MyCoreLib\src\MyCoreLib.Common\bin\Debug\netstandard1.6\MyCoreL
 E:\training\core\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.dll
 E:\training\core\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.pdb
 E:\training\core\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.csprojResolveAssemblyReference.cache
+G:\MyCoreLib\src\MyCoreLib.Common\bin\Debug\netstandard1.6\MyCoreLib.Common.deps.json
+G:\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.csprojResolveAssemblyReference.cache
+G:\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.AssemblyInfo.cs
+G:\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.dll
+G:\MyCoreLib\src\MyCoreLib.Common\obj\Debug\netstandard1.6\MyCoreLib.Common.pdb

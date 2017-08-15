@@ -4392,10 +4392,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\MyCoreLib.BaseAsync.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\MyCoreLib.BaseAsync.csproj",
       "projectName": "MyCoreLib.BaseAsync",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\MyCoreLib.BaseAsync.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\MyCoreLib.BaseAsync.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseAsync\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"

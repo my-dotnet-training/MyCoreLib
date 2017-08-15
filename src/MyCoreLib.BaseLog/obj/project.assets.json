@@ -7690,10 +7690,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj",
       "projectName": "MyCoreLib.BaseLog",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseLog\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\MyCoreLib.BaseLog.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseLog\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
@@ -7701,8 +7701,8 @@
       "frameworks": {
         "netstandard1.6": {
           "projectReferences": {
-            "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseData\\MyCoreLib.BaseData.csproj": {
-              "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseData\\MyCoreLib.BaseData.csproj"
+            "G:\\MyCoreLib\\src\\MyCoreLib.BaseData\\MyCoreLib.BaseData.csproj": {
+              "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseData\\MyCoreLib.BaseData.csproj"
             }
           }
         }

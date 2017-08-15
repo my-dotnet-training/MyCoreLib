@@ -4025,10 +4025,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\MyCoreLib.BaseMVC.csproj",
+      "projectUniqueName": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\MyCoreLib.BaseMVC.csproj",
       "projectName": "MyCoreLib.BaseMVC",
-      "projectPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\MyCoreLib.BaseMVC.csproj",
-      "outputPath": "E:\\training\\core\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\obj\\",
+      "projectPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\MyCoreLib.BaseMVC.csproj",
+      "outputPath": "G:\\MyCoreLib\\src\\MyCoreLib.BaseMVC\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netstandard1.6"
