@@ -60,7 +60,6 @@ namespace MyCoreLib.BaseMessageQuery
                 }
             }
         }
-
         public void Send(string message)
         {
             //2. 建立连接
@@ -83,6 +82,174 @@ namespace MyCoreLib.BaseMessageQuery
                         channel.BasicPublish("RabbitTest", QueueName, properties, buffer);
                         Console.WriteLine("消息发送成功：" + message);
                     }
+                }
+            }
+        }
+        public void EmitLog(string message)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    // 生成随机队列名称
+                    var queueName = channel.QueueDeclare().QueueName;
+                    //使用fanout exchange type，指定exchange名称
+                    channel.ExchangeDeclare(exchange: "logs", type: "fanout");
+
+                    var body = Encoding.UTF8.GetBytes(message);
+                    //发布到指定exchange，fanout类型无需指定routingKey
+                    channel.BasicPublish(exchange: "logs", routingKey: "", basicProperties: null, body: body);
+                    Console.WriteLine(" [x] Sent {0}", message);
+                }
+            }
+
+            Console.WriteLine(" Press [enter] to exit.");
+            Console.ReadLine();
+        }
+        public void ReceiveLog()
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    //申明exchange
+                    channel.ExchangeDeclare(exchange: "logs", type: "fanout");
+                    //申明随机队列名称
+                    var queuename = channel.QueueDeclare().QueueName;
+                    //绑定队列到指定exchange,使用默认路由
+                    channel.QueueBind(queue: queuename, exchange: "logs", routingKey: "");
+                    Console.WriteLine("[*] Waitting for logs.");
+                    //申明consumer
+                    var consumer = new EventingBasicConsumer(channel);
+                    //绑定消息接收后的事件委托
+                    consumer.Received += (model, ea) =>
+                    {
+                        var body = ea.Body;
+                        var message = Encoding.UTF8.GetString(body);
+                        Console.WriteLine("[x] {0}", message);
+
+                    };
+
+                    channel.BasicConsume(queue: queuename, autoAck: true, consumer: consumer);
+
+                    Console.WriteLine(" Press [enter] to exit.");
+                    Console.ReadLine();
+                }
+            }
+        }
+        public void EmitLogDirect(string message, string level = "info")
+        {
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare(exchange: "direct_logs",
+                    type: "direct");
+
+                var body = Encoding.UTF8.GetBytes(message);
+                channel.BasicPublish(exchange: "direct_logs",
+                    routingKey: level,
+                    basicProperties: null,
+                    body: body);
+                Console.WriteLine(" [x] Sent '{0}':'{1}'", level, message);
+            }
+        }
+        /// <summary>
+        /// Use one of parameters: [info] [warning] [error]
+        /// </summary>
+        /// <param name="logLevels"></param>
+        public void ReceiveLogsDirect(string[] args)
+        {
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.ExchangeDeclare(exchange: "direct_logs",
+                                        type: "direct");
+                var queueName = channel.QueueDeclare().QueueName;
+
+                if (args.Length < 1)
+                {
+                    Console.Error.WriteLine("Use one of parameters: [info] [warning] [error]");
+                    Console.WriteLine(" Press [enter] to exit.");
+                    Console.ReadLine();
+                    Environment.Exit(1);
+                    return;
+                }
+
+                foreach (var logLevel in args)
+                {
+                    channel.QueueBind(queue: queueName,
+                                      exchange: "direct_logs",
+                                      routingKey: logLevel);
+                }
+
+                Console.WriteLine(" [*] Waiting for messages.");
+
+                var consumer = new EventingBasicConsumer(channel);
+                consumer.Received += (model, ea) =>
+                {
+                    var body = ea.Body;
+                    var message = Encoding.UTF8.GetString(body);
+                    var routingKey = ea.RoutingKey;
+                    Console.WriteLine(" [x] Received '{0}':'{1}'", routingKey, message);
+
+                    channel.BasicAck(ea.DeliveryTag, false);
+                };
+
+                channel.BasicConsume(queue: queueName,
+                                     autoAck: false,
+                                     consumer: consumer);
+
+                Console.WriteLine(" Press [enter] to exit.");
+                Console.ReadLine();
+            }
+        }
+        public void EmitLogTopic(string message, string routingKey = "anonymous.info")
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    channel.ExchangeDeclare(exchange: "topic_logs", type: "topic");
+                    var body = Encoding.UTF8.GetBytes(message);
+                    channel.BasicPublish(exchange: "topic_logs", routingKey: routingKey, body: body);
+                    Console.WriteLine("[x] Sent '{0}':'{1}'", routingKey, message);
+                }
+            }
+        }
+        public void ReceiveLogsTopic(string[] args)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    channel.ExchangeDeclare(exchange: "topic_logs", type: "topic");
+                    var queuename = channel.QueueDeclare().QueueName;
+                    if (args.Length < 1)
+                    {
+                        Console.Error.WriteLine("Specify binding_key");
+                        Environment.Exit(1);
+                        return;
+                    }
+                    foreach (var bindingKey in args)
+                    {
+                        channel.QueueBind(queue: queuename, exchange: "topic_logs", routingKey: bindingKey);
+                    }
+
+                    Console.WriteLine("[*] Waiting for message.");
+
+                    var consumer = new EventingBasicConsumer(channel);
+                    consumer.Received += (model, ea) =>
+                    {
+                        var body = ea.Body;
+                        var message = Encoding.UTF8.GetString(body);
+                        var routingKey = ea.RoutingKey;
+                        Console.WriteLine("[x] Received '{0}':'{1}'", ea.RoutingKey, message);
+                    };
+
+                    channel.BasicConsume(queue: queuename, autoAck: true, consumer: consumer);
+
+                    Console.WriteLine("Press any key exit.");
+                    Console.ReadLine();
                 }
             }
         }
