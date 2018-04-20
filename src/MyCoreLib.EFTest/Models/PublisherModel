@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
+
+namespace EF.Test.Models
+{
+    public class PublisherModel
+    {
+        public PublisherModel()
+        {
+            PublisherList = new List<SelectListItem>();
+        }
+
+        [Display(Name = "PublisherName")]
+        public int PublisherID { get; set; }
+
+        public List<SelectListItem> PublisherList { get; set; }
+    }
+}
