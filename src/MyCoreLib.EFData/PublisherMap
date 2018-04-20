@@ -1,0 +1,22 @@
+
+using EF.Entity;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.ModelConfiguration;
+
+namespace EF.Data
+{
+    public class PublisherMap : EntityTypeConfiguration<Publisher>
+    {
+        public PublisherMap()
+        {
+            //配置主键
+            this.HasKey(s => s.ID);
+            this.Property(s => s.ID).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            // this.Property(s => s.PublisherName).HasColumnType("nvarchar(50)").IsRequired();//这样写，有问题，生成不了数据库
+            this.Property(s => s.PublisherName).HasColumnType("nvarchar").HasMaxLength(50).IsRequired();
+            this.Property(s => s.AddedDate).IsRequired();
+            this.Property(s => s.ModifiedDate).IsRequired();
+
+        }
+    }
+}
