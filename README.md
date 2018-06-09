@@ -64,3 +64,10 @@ NServiceBus.Newtonsoft.Json
 StackExchange.Redis
 Topshelf                        Windows Server
 T4模板                            代码生成
+
+
+
+
+zjl9494@163.com enterprise
+zjl9494@hotmail.com mp
+zjl9494@sina.com microapp
