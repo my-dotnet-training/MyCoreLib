@@ -71,3 +71,5 @@ T4模板                            代码生成
 zjl9494@163.com enterprise
 zjl9494@hotmail.com mp
 zjl9494@sina.com microapp
+
+dac729b8b50bd2494250df561936ed98
